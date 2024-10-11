@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
-    <title>Electro - HTML Ecommerce Template</title>
+    <title>GG's Hobby and Gaming Lounge</title>
 
     <!-- Google font -->
     <link
@@ -28,7 +28,7 @@
     <link rel="stylesheet" href="css/font-awesome.min.css" />
 
     <!-- Custom stlylesheet -->
-    <link type="text/css" rel="stylesheet" href="css/style.css" />
+    <link type="text/css" rel="stylesheet" href="/css/style.css" />
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -42,6 +42,7 @@
 
 
       <!-- MAIN HEADER -->
+
       <div id="header">
         <!-- container -->
         <div class="container">
@@ -51,7 +52,7 @@
             <div class="col-md-3">
               <div class="header-logo">
                 <a href="#" class="logo">
-                  <img src="./img/logo.png" alt="" />
+                  <img src="./img/gg.png" alt="" />
                 </a>
               </div>
             </div>
@@ -61,11 +62,7 @@
             <div class="col-md-6">
               <div class="header-search">
                 <form>
-                  <select class="input-select">
-                    <option value="0">All Categories</option>
-                    <option value="1">Category 01</option>
-                    <option value="1">Category 02</option>
-                  </select>
+
                   <input class="input" placeholder="Search here" />
                   <button class="search-btn">Search</button>
                 </form>
@@ -177,10 +174,10 @@
           <ul class="main-nav nav navbar-nav">
             <li class="active"><a href="#">Home</a></li>
             <li><a href="#">Hot Deals</a></li>
-            <li><a href="#">Categories</a></li>
-            <li><a href="#">Laptops</a></li>
-            <li><a href="#">Smartphones</a></li>
-            <li><a href="#">Cameras</a></li>
+            <li><a href="#">Trading Card Games</a></li>
+            <li><a href="#">Consoles</a></li>
+            <li><a href="#">Products</a></li>
+            <li><a href="#">Events</a></li>
             <li><a href="#">Accessories</a></li>
           </ul>
           <!-- /NAV -->
