@@ -813,9 +813,10 @@ textarea.input {
 
 #hot-deal.section {
     padding: 60px 0px;
-    margin: 30px 0px;
+    margin: 1px 0px;
     background-color: #e4e7ed;
     background-image: url("../img/hotdeal.png");
+    /*background sa umpisa */
     background-position: center;
     background-repeat: no-repeat;
 }
