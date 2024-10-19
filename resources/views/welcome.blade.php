@@ -490,18 +490,18 @@
                     <!-- product -->
                     <div class="product">
                       <div class="product-img">
-                        <img src="./img/product07.png" alt="" />
+                        <img src="./img/t2.jpg" alt="" />
                         <div class="product-label">
                           <span class="new">NEW</span>
                         </div>
                       </div>
                       <div class="product-body">
-                        <p class="product-category">Category</p>
+                        <p class="product-category">Card</p>
                         <h3 class="product-name">
-                          <a href="#">product name goes here</a>
+                          <a href="#">One Piece Card Game (Portgas D. Ace MANGA)</a>
                         </h3>
                         <h4 class="product-price">
-                          $980.00 <del class="product-old-price">$990.00</del>
+                            ₱355,000.00 <del class="product-old-price">$345,000.00</del>
                         </h4>
                         <div class="product-rating">
                           <i class="fa fa-star"></i>
@@ -536,20 +536,26 @@
                     <!-- product -->
                     <div class="product">
                       <div class="product-img">
-                        <img src="./img/product08.png" alt="" />
+                        <img src="./img/t3.jpg" alt="" />
                         <div class="product-label">
                           <span class="sale">-30%</span>
                         </div>
                       </div>
                       <div class="product-body">
-                        <p class="product-category">Category</p>
+                        <p class="product-category">Figure</p>
                         <h3 class="product-name">
-                          <a href="#">product name goes here</a>
+                          <a href="#">Yamaguchi Deadpool</a>
                         </h3>
                         <h4 class="product-price">
-                          $980.00 <del class="product-old-price">$990.00</del>
+                            ₱1400.00 <del class="product-old-price">₱1600.00</del>
                         </h4>
-                        <div class="product-rating"></div>
+                        <div class="product-rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star-o"></i>
+                        </div>
                         <div class="product-btns">
                           <button class="add-to-wishlist">
                             <i class="fa fa-heart-o"></i
@@ -576,15 +582,15 @@
                     <!-- product -->
                     <div class="product">
                       <div class="product-img">
-                        <img src="./img/product09.png" alt="" />
+                        <img src="./img/t4.jpg" alt="" />
                       </div>
                       <div class="product-body">
-                        <p class="product-category">Category</p>
+                        <p class="product-category">Figure</p>
                         <h3 class="product-name">
-                          <a href="#">product name goes here</a>
+                          <a href="#">Wolverine Action Figure</a>
                         </h3>
                         <h4 class="product-price">
-                          $980.00 <del class="product-old-price">$990.00</del>
+                            ₱1500.00 <del class="product-old-price">₱2000.00</del>
                         </h4>
                         <div class="product-rating">
                           <i class="fa fa-star"></i>
@@ -619,15 +625,15 @@
                     <!-- product -->
                     <div class="product">
                       <div class="product-img">
-                        <img src="./img/product01.png" alt="" />
+                        <img src="./img/t5.jpg" alt="" />
                       </div>
                       <div class="product-body">
-                        <p class="product-category">Category</p>
+                        <p class="product-category">Figure</p>
                         <h3 class="product-name">
-                          <a href="#">product name goes here</a>
+                          <a href="#">One Piece Roronoa Zoro</a>
                         </h3>
                         <h4 class="product-price">
-                          $980.00 <del class="product-old-price">$990.00</del>
+                            ₱1500.00 <del class="product-old-price">₱1800.00</del>
                         </h4>
                         <div class="product-rating">
                           <i class="fa fa-star"></i>
