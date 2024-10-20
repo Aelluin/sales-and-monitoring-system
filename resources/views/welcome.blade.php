@@ -39,102 +39,11 @@
   </head>
 
   <body>
+  <div class="Rectangle-1"></div>
+  <div class="Rectangle-2"></div>
 
+</div>
 
-      <!-- MAIN HEADER -->
-
-      <div id="header">
-        <!-- container -->
-        <div class="container">
-          <!-- row -->
-          <div class="row">
-            <!-- LOGO -->
-            <div class="col-md-3">
-              <div class="header-logo">
-                <a href="#" class="logo">
-                  <img src="./img/gg.png" alt="" />
-                </a>
-              </div>
-            </div>
-            <!-- /LOGO -->
-
-            <!-- SEARCH BAR -->
-            <div class="col-md-6">
-              <div class="header-search">
-                <form>
-
-                  <input class="input" placeholder="Search here" />
-                  <button class="search-btn">Search</button>
-                </form>
-              </div>
-            </div>
-            <!-- /SEARCH BAR -->
-
-            <!-- ACCOUNT -->
-            <div class="col-md-3 clearfix">
-              <div class="header-ctn">
-                <!-- Wishlist -->
-                <div>
-                  <a href="#">
-                    <i class="fa fa-heart-o"></i>
-                    <span>Your Wishlist</span>
-                    <div class="qty">2</div>
-                  </a>
-                </div>
-                <!-- /Wishlist -->
-
-                <!-- Cart -->
-                <div class="dropdown">
-                    @if (Route::has('login'))
-                        <nav class="-mx-3 flex flex-1 justify-end">
-                            @auth
-                                <a
-                                    href="{{ url('/dashboard') }}"
-                                    class="rounded-md px-3 py-2 text-black ring-1 ring-transparent transition hover:text-black/70 focus:outline-none focus-visible:ring-[#FF2D20] dark:text-white dark:hover:text-white/80 dark:focus-visible:ring-white"
-                                >
-                                    Dashboard
-                                </a>
-                            @else
-                                <a
-                                    href="{{ route('login') }}"
-                                    class="rounded-md px-3 py-2 text-black ring-1 ring-transparent transition hover:text-black/70 focus:outline-none focus-visible:ring-[#FF2D20] dark:text-white dark:hover:text-white/80 dark:focus-visible:ring-white"
-                                >
-                                    Log in
-                                </a>
-
-                                @if (Route::has('register'))
-                                    <a
-                                        href="{{ route('register') }}"
-                                        class="rounded-md px-3 py-2 text-black ring-1 ring-transparent transition hover:text-black/70 focus:outline-none focus-visible:ring-[#FF2D20] dark:text-white dark:hover:text-white/80 dark:focus-visible:ring-white"
-                                    >
-                                        Register
-                                    </a>
-                                @endif
-                            @endauth
-                        </nav>
-                    @endif
-                </div>
-                <!-- /Cart -->
-
-                <!-- Menu Toogle -->
-                <div class="menu-toggle">
-                  <a href="#">
-                    <i class="fa fa-bars"></i>
-                    <span>Menu</span>
-                  </a>
-                </div>
-                <!-- /Menu Toogle -->
-              </div>
-            </div>
-            <!-- /ACCOUNT -->
-          </div>
-          <!-- row -->
-        </div>
-        <!-- container -->
-      </div>
-      <!-- /MAIN HEADER -->
-    </header>
-    <!-- /HEADER -->
 
     <!-- NAVIGATION -->
     <nav id="navigation">
